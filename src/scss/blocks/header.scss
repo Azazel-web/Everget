@@ -1,0 +1,157 @@
+.header {
+  position: fixed;
+  top: 46px;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+
+  @media (max-width: $md+px) {
+    top: 0;
+    padding: 20px 0;
+  }
+}
+
+.header__cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__burger {
+  display: none;
+  @media (max-width: $md+px) {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 18px;
+    height: 12px;
+    transition: all .3s ease 0s;
+    & span {
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+    }
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      background-color: #fff;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      transition: all .3s ease 0s;
+    }
+    &:before {
+      top: 0;
+    }
+    &:after {
+      bottom: 0;
+    }
+    &.active span {
+      transform: scale(0);
+    }
+    &.active:before {
+      background-color: $black-100;
+      transform: rotate(45deg);
+      top: 5px;
+    }
+    &.active:after {
+      background-color: $black-100;
+      transform: rotate(-45deg);
+      bottom: 5px;
+    }
+  }
+}
+
+.header__svg {
+  fill: #fff;
+}
+
+.header__menu {
+  @media (max-width: $md+px) {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 131px;
+    overflow: auto;
+    transition: all .3s ease 0s;
+    &.active {
+      top: 0;
+      height: 100vh;
+      background-color: #fff;
+    }
+  }
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  color: $primary-100;
+  font-size: 40px;
+  line-height: 74px;
+  padding-left: 80px;
+  @media (max-width: $md+px) {
+    display: block;
+    padding-left: 16px;
+  }
+}
+
+.menu__item {
+}
+
+.menu__item--hidden {
+  @media (min-width: $md+px) {
+    display: none;
+  }
+}
+
+.menu__link {
+  display: block;
+  padding: 23px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $white;
+  transition: color .2s linear;
+
+  @media (max-width: $md+px) {
+    margin-right: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 74px;
+    color: $black-100;
+    text-transform: initial;
+  }
+  @media (min-width: $md+px) {
+    &:hover {
+      color: $primary-80;
+    }
+    &:active {
+      color: $primary-70;
+    }
+  }
+}
+
+
+.header__button {
+  @media (max-width: $md+px) {
+    display: none;
+  }
+}
+
+.header__personal-area {
+  display: none;
+  @media (max-width: $md+px) {
+    display: block;
+  }
+
+}

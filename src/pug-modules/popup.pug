@@ -1,0 +1,23 @@
+.popup#popup
+    .popup__body
+        .popup__content
+            a.popup__close.popup-link.close-popup(href="#stop-registration")
+                img.popup__img(src="img/close-form.svg")
+            .popup__head
+                .popup__head-left Вход
+                .popup__head-right Регистрация
+            form.popup__form(action="" method="POST")
+                label.popup__input-label(for="lastname") Фамилия
+                input.popup__input(type="text" name="lastname" data-validate-field="lastname" id="lastname" placeholder="Фамилия")
+                label.popup__input-label(for="name") Имя
+                input.popup__input(type="text" name="name" data-validate-field="name" id="name" placeholder="Имя")
+                label.popup__input-label(for="middlename") Отчество
+                input.popup__input(type="text" name="middlename" data-validate-field="middlename" id="middlename" placeholder="Отчество")
+                label.popup__input-label(for="passport") Серия и номер паспорта
+                input.popup__input(type="text" name="passport" data-validate-field="passport" id="passport" placeholder="Серия и номер паспорта")
+                label.popup__input-label(for="tel") Номер телефона
+                input.popup__input(type="tel" name="tel" data-validate-field="tel" id="tel" placeholder="Номер телефона")
+                input.popup__checkbox(type="checkbox" name="check" data-validate-field="checkbox" id="checkbox")
+                label.popup__check-label(for="checkbox") Согласен с правилами передачи персональных данных
+                .btn__box
+                    input.button.button__popup(type="submit" value="отправить смс на номер")

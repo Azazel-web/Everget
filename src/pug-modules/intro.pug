@@ -1,0 +1,22 @@
+section.intro
+    .container.intro__cont
+        .intro__info
+            h1.intro__capture <span class="intro__first-letter">Everget</span> простой способ <br> погасить займ
+            .intro__text Cкидка до 70% <br> Оформим за 5 минут <br> Нужен только паспорт
+        .calculator
+            .calculator__subtitle Сумма долга
+                span#skip-value-lower.calculator__sum 0
+            .calculator__body(id="slider-connect")
+            .calculator__wripper
+                span.calculator__label 1000₽
+                span.calculator__label Больше 200 000₽
+            .calculator__input
+                input(placeholder="Могу заплатить" autocomplete="off")
+            .calculator__comission Комиссия
+                .calculator__tooltip-icon
+                    svg.calculator__svg(width="15px", height="15px")
+                        use(xlink:href="#tooltip")
+                .calculator__tooltip-body Сервис Everget не берет комиссию с заемщиков, а регулирует свои взаимоотношения с кредитором
+                span.calculator__rub 0₽
+            .btn__box
+                a.button.reviews__button(href="#") Погасить долг со скидкой

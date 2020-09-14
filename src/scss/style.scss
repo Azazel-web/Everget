@@ -1,0 +1,132 @@
+@import "normalize.scss";
+@import "var.scss";
+@import "mixin.scss";
+@import "fonts.scss";
+
+
+.visually-hidden:not(:active):not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  bottom: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $black-100;
+  &.clock{
+    overflow: hidden;
+  }
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  max-width: $max-width-container + px;
+  margin: 0 auto;
+  @media (max-width: $lg+px) {
+    max-width: 970px;
+  }
+  @media (max-width: $md+px) {
+    max-width: 750px;
+  }
+  @media (max-width: $sm+px) {
+    max-width: none;
+    padding: 0 16px;
+  }
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: $black-100;
+
+  @media (max-width: $md+px) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.button {
+  padding: 13px 40px 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  background: $primary-100;
+  border-radius: 12px;
+  transition: background .2s linear;
+
+  &:hover {
+    background: $primary-80;
+  }
+
+  &:active {
+    background: $primary-70;
+  }
+}
+
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/advantages";
+@import "blocks/steps";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/popup";
+@import "blocks/stop-registration";

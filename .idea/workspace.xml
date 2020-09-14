@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="645ce1b7-b940-4f4c-84b4-38fbf66ad286" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GotoClassSymbolConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="GitIgnore" />
+      <filtered-out-file-type name="HgIgnore" />
+      <filtered-out-file-type name="IgnoreLang" />
+      <filtered-out-file-type name="Angular2Html" />
+      <filtered-out-file-type name="Angular2Svg" />
+      <filtered-out-file-type name="AngularJS" />
+      <filtered-out-file-type name="Asp" />
+      <filtered-out-file-type name="CoffeeScript" />
+      <filtered-out-file-type name="Cookie" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="Dockerfile" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="ECMA Script Level 4" />
+      <filtered-out-file-type name="ECMAScript 6" />
+      <filtered-out-file-type name="EditorConfig" />
+      <filtered-out-file-type name="EJS" />
+      <filtered-out-file-type name="EL" />
+      <filtered-out-file-type name="GitExclude" />
+      <filtered-out-file-type name="Flow JS" />
+      <filtered-out-file-type name="Gherkin" />
+      <filtered-out-file-type name="Haml" />
+      <filtered-out-file-type name="Handlebars" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="HTTP Request" />
+      <filtered-out-file-type name="IntegrationPerformanceTest" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JQuery-CSS" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSON5" />
+      <filtered-out-file-type name="JSP" />
+      <filtered-out-file-type name="JSPX" />
+      <filtered-out-file-type name="JSRegexp" />
+      <filtered-out-file-type name="JSUnicodeRegexp" />
+      <filtered-out-file-type name="JSX Harmony" />
+      <filtered-out-file-type name="LESS" />
+      <filtered-out-file-type name="Markdown" />
+      <filtered-out-file-type name="Nashorn JS" />
+      <filtered-out-file-type name="TEXT" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="RELAX-NG" />
+      <filtered-out-file-type name="Shell Script" />
+      <filtered-out-file-type name="Spacebars" />
+      <filtered-out-file-type name="Stylus" />
+      <filtered-out-file-type name="SVG" />
+      <filtered-out-file-type name="textmate" />
+      <filtered-out-file-type name="TypeScript" />
+      <filtered-out-file-type name="TypeScript JSX" />
+      <filtered-out-file-type name="Vue" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="XPath" />
+      <filtered-out-file-type name="XPath2" />
+      <filtered-out-file-type name="XsdRegExp" />
+      <filtered-out-file-type name="yaml" />
+      <filtered-out-file-type name="$XSLT" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1fwx6WyWeqtUWrZs1TyoSR6GNmD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/gulp/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/library" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\html\.Portfolio\Everget\src\js\library" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Gulp" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulp/gulpfile.js</gulpfile>
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="645ce1b7-b940-4f4c-84b4-38fbf66ad286" name="Default Changelist" comment="" />
+      <created>1597142781150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597142781150</updated>
+      <workItem from="1597142782461" duration="8755000" />
+      <workItem from="1597174095889" duration="1737000" />
+      <workItem from="1597227032304" duration="8872000" />
+      <workItem from="1597656048600" duration="11758000" />
+      <workItem from="1597670342432" duration="5886000" />
+      <workItem from="1597826136017" duration="19981000" />
+      <workItem from="1597915628388" duration="11832000" />
+      <workItem from="1598029202350" duration="6334000" />
+      <workItem from="1598287985848" duration="4720000" />
+      <workItem from="1598344606725" duration="17063000" />
+      <workItem from="1598366646874" duration="2582000" />
+      <workItem from="1598430169348" duration="4968000" />
+      <workItem from="1598768881884" duration="600000" />
+      <workItem from="1598770576658" duration="2000" />
+      <workItem from="1598770958918" duration="17006000" />
+      <workItem from="1598858535132" duration="739000" />
+      <workItem from="1598950931075" duration="946000" />
+      <workItem from="1598960842064" duration="1856000" />
+      <workItem from="1598967286326" duration="2566000" />
+      <workItem from="1599393208257" duration="674000" />
+      <workItem from="1599418920926" duration="1405000" />
+      <workItem from="1599646953728" duration="12754000" />
+      <workItem from="1599724618256" duration="20579000" />
+      <workItem from="1599934119676" duration="331000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="178" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597145814278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="178" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597145814278" />
+    <state x="706" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597837603972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="706" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597837603972" />
+    <state x="217" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597142900064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="217" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597142900064" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1597670709962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597670709962" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1599934450739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599934450739" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1599934450739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599934450739" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1599934450739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599934450739" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1599934450739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599934450739" />
+    <state x="171" y="165" key="SettingsEditor" timestamp="1599743205162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="171" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599743205162" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1599727921212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599727921212" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599743388073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1599743388073" />
+    <state x="768" y="381" width="383" height="278" key="XPathView.InputDialog.DIMENSION_SERVICE_KEY.SIMPLE" timestamp="1597670450750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="768" y="381" width="383" height="278" key="XPathView.InputDialog.DIMENSION_SERVICE_KEY.SIMPLE/0.0.1920.1040@0.0.1920.1040" timestamp="1597670450750" />
+    <state x="667" y="76" width="585" height="888" key="find.popup" timestamp="1599743254650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="76" width="585" height="888" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599743254650" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1599743231618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599743231618" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599743594705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599743594705" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+</project>

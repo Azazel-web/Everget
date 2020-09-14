@@ -1,0 +1,86 @@
+.stop-registration {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all 0.8s ease;
+}
+
+.stop-registration.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.stop-registration.open .stop-registration__content {
+  opacity: 1;
+  transform: perspective(600px) translate(0px, 0%) rotate(0deg);
+}
+
+.stop-registration__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stop-registration__content {
+  width: 495px;
+  margin: 0 auto;
+  padding: 44px 24px;
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  position: relative;
+  opacity: 0;
+  transform: perspective(600px) translate(0px, -100%) rotate(45deg);
+  @media (max-width: $sm+px) {
+    width: 312px;
+  }
+}
+
+.stop-registration__head {
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: $black-100;
+  @media (max-width: $sm+px) {
+    font-size: 23px;
+  }
+}
+.stop-registration__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: $black-100;
+  @media (max-width: $sm+px) {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.button__stop-registration {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.stop-registration__button-left {
+  padding: 13px 30px;
+  margin-right: 24px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  color: $primary-100;
+  &:hover {
+    background: #FFFFFF;
+  }
+}
+.stop-registration__button-right {
+  padding: 13px 24px;
+}

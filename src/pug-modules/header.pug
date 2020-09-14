@@ -1,0 +1,22 @@
+header.header.lock-padding
+    .header__cont.container
+        .header__burger
+            span
+        a.header__logo(href="#")
+                svg.header__svg(width="131px" height="42px")
+                    use(xlink:href="#logo")
+        nav.header__menu.menu
+            ul.menu__list
+                li.menu__item.menu__item--hidden Главная
+                li.menu__item
+                    a.menu__link#menu__target(href="#advantages") Как это работает
+                li.menu__item
+                    a.menu__link(href="#steps") 3 простых шага
+                li.menu__item
+                    a.menu__link(href="#reviews") Отзывы
+                li.menu__item.menu__item--hidden
+                    a.menu__link.popup-link(href="#popup") Личный кабинет
+        .btn__box.header__button
+            a.button.popup-link(href="#popup") Личный кабинет
+        a.header__personal-area.popup-link(href="#popup")
+            img(src="img/personal-area.svg")
